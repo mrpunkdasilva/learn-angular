@@ -27,7 +27,7 @@ Sendo Orientado a Componentes: "tudo é um componente". Possuindo o seu Componen
 Veja um pequeno exemplo,no Diagrama abaixo todo a VIEW (Visualização, tela, ou seja o que o usuario vai ver) 
 está construido em componentes como se fossem bloquinhos Lego, onde você os vai juntando até ter aquilo que se quer totalmente montada.
 
-![Diagrama Componentes](images/components.png)
+![Diagrama Componentes](resources/components.png)
 
 Assim, com sua aplicão fragmentada pelos componetes gera uma melhor manutenção deles e também em teste se torna mais víavel.
 
@@ -38,13 +38,13 @@ os Serviços para que haja integração entre os Componentes e o Backend(Servido
 
 E o Service tem a injeção de dependencias em outras classes.
 
-![Diagrama Services](images/services.png)
+![Diagrama Services](resources/services.png)
 
 
 #### Router
 O Router é o respavel pelo roteamento da aplicação, ou seja, com ele é que será feito a navegação. E com o Angular 2, o conceito de SPA é mantido.
 
-![Diagrama Router](images/router.png)
+![Diagrama Router](resources/router.png)
 
 #### Diretivas
 Responsavel por modificar elementos do DOM (Document Obect Model) e/ou seu comportamento. Sendo que, os Components podem também ser diretivas.
