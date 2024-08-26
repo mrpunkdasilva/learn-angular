@@ -34,6 +34,7 @@ export class AppComponent {
 
 - **Definindo o dado que será passado no componente pai:**
   - devemos seguir o seguinte para isso: `[nomeDoDado]="nomeDoDadoQueEstaNoPai"`
+  - Não necessita de os dois nomes serem iguais, mas é uma boa prática
 ```angular2html
 <h1>Hello World</h1>
 
@@ -62,5 +63,5 @@ export class ParentDataComponent implements OnInit {
 }
 ```
 
-> :warning: Para o Angular é necessario inicializarmos o dado com algum valor, para que ele preencha
-
+> :warning: Para o Angular é necessario inicializarmos o dado com algum valor, para que ele preencha.
+> Ou podemos também dizer para o TypeScript que o dado vindo do `@Input` vai ser inicializado, mas não agora, usando a exclamação na frente do nome do dado: `@Input() name! : string;`
