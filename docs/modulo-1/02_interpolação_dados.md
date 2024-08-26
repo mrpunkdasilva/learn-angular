@@ -4,6 +4,8 @@
 * [Interpolação de Dados](#interpolação-de-dados)
   * [O que seria](#o-que-seria)
   * [Como fazer](#como-fazer)
+    * [No `.ts`:](#no-ts)
+    * [No HTML:](#no-html)
 <!-- TOC -->
 
 ## O que seria
@@ -34,7 +36,7 @@ Criamos as variáveis e atributos dentro da classe do componente
 
 Em seguida teremos que acessar os dados no HTML (**Template**) para tal usamos |> `{{ dado }}`
 
-**No `.ts`:**
+### No `.ts`:
 ```typescript
 import {Component, OnInit} from '@angular/core';
 
@@ -65,7 +67,7 @@ export class FirstComponentComponent implements OnInit {
 }
 ```
 
-**No HTML:**
+### No HTML:
 ```angular2html
 <h1>
   Nome: {{ name }}
