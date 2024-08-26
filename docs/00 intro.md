@@ -1,9 +1,19 @@
 # Learn Angular
 
+<!-- TOC -->
+* [Learn Angular](#learn-angular)
+  * [Intro](#intro)
+    * [Blocos Principais do Angular](#blocos-principais-do-angular)
+      * [Componentes](#componentes)
+      * [Serviço](#serviço-)
+      * [Router](#router)
+      * [Diretivas](#diretivas)
+<!-- TOC -->
+
 ## Intro
 
 Angular é um framework baseado em componentes, criado pela Google, mas a partir da versão 2 é mantido pela Google e Microsoft criada essa parceria para que o Angular 2 fosse escrito em TypeScript, uma espécie de sublinguagem derivada do JavaScript e criada pela Microsoft.
-Focado na criação de sistema escalaveis e robustos. O Angular se encontra como um open source tento seu código no GitHub.
+Focado na criação de sistema escaláveis e robustos. O Angular se encontra como um open source tento seu código no GitHub.
 
 A partir do Angular 2 ele foi reescrito, sendo praticamente outro framework em comparação com suas versões anteriores. Para que pudesse usar os novos padrões web e fazer uso de web componentes.
 
