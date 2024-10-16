@@ -1,0 +1,11 @@
+<div class="class">
+  <h2>Animals ({{animals.length}}):</h2>
+
+  <ul>
+    <li *ngFor="let animal of animals">
+      Nome {{ animal.name }}
+      <br>
+      Type {{ animal.type }}
+    </li>
+  </ul>
+</div>
