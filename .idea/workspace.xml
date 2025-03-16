@@ -11,6 +11,27 @@
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learn-angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-angular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-0/00 intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-0/01 enveropment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-0/02 init.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/00_estrutura_projeto.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/01_criando_componentes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/02_interpolação_dados.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/03_css_no_angular.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/04_compartilhamento_dados.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/05_diretivas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/06_eventos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/07_emitindo_eventos copy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/08_renderizar_listas copy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/09_importancia_interfaces copy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/10_pipe_operators copy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/11_two_data_binding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/12_services.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modulo-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/resources/components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/resources/router.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/resources/services.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +86,24 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Writerside.Web Archive (in).executor": "Run",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/MrPunkdaSilva/WebstormProjects/learn-angular/Writerside/images",
     "writerside.last.selected.productlearn-angular": "in"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Writerside/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="StardustRunConfiguration" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Web Archive (in)" type="StardustRunConfiguration" factoryName="save-as-zip">
       <option name="folderPath" value="$PROJECT_DIR$" />
