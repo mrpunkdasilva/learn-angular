@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df0a6b61-377c-414d-9f91-4bddd82cda20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/redirection-rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn-angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-angular.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InstanceColorv3">
+    <option name="map">
+      <map>
+        <entry key="$PROJECT_DIR$/Writerside/in.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="68" />
+                  <option name="red" value="206" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="65" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="126" />
+                  <option name="red" value="231" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2uPpyxemerYLx67A0S7utwQM4WU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/MrPunkdaSilva/WebstormProjects/learn-angular/Writerside/images",
+    "writerside.last.selected.productlearn-angular": "in"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Web Archive (in)" type="StardustRunConfiguration" factoryName="save-as-zip">
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="instanceId" value="in" />
+      <option name="instanceName" value="Learn Angular" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

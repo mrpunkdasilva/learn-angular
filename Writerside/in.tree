@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Learn Angular" start-page="01 enveropment.md">
+
+    <toc-element toc-title="modulo-0">
+        <toc-element topic="01 enveropment.md"/>
+        <toc-element topic="00 intro.md">
+            <toc-element topic="02 init.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="modulo-1">
+        <toc-element topic="00_estrutura_projeto.md"/>
+        <toc-element topic="01_criando_componentes.md"/>
+        <toc-element topic="02_interpolação_dados.md"/>
+        <toc-element topic="03_css_no_angular.md"/>
+        <toc-element topic="04_compartilhamento_dados.md"/>
+        <toc-element topic="05_diretivas.md"/>
+        <toc-element topic="06_eventos.md"/>
+        <toc-element topic="07_emitindo_eventos copy.md"/>
+        <toc-element topic="08_renderizar_listas copy.md"/>
+        <toc-element topic="09_importancia_interfaces copy.md"/>
+        <toc-element topic="10_pipe_operators copy.md"/>
+        <toc-element topic="11_two_data_binding.md"/>
+        <toc-element topic="12_services.md"/>
+    </toc-element>
+</instance-profile>

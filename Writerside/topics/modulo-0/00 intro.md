@@ -1,16 +1,4 @@
-# Learn Angular
-
-<!-- TOC -->
-* [Learn Angular](#learn-angular)
-  * [Intro](#intro)
-    * [Blocos Principais do Angular](#blocos-principais-do-angular)
-      * [Componentes](#componentes)
-      * [Serviço](#serviço-)
-      * [Router](#router)
-      * [Diretivas](#diretivas)
-<!-- TOC -->
-
-## Intro
+#  Intro
 
 Angular é um framework baseado em componentes, criado pela Google, mas a partir da versão 2 é mantido pela Google e Microsoft criada essa parceria para que o Angular 2 fosse escrito em TypeScript, uma espécie de sublinguagem derivada do JavaScript e criada pela Microsoft.
 Focado na criação de sistema escaláveis e robustos. O Angular se encontra como um open source tento seu código no GitHub.
@@ -37,7 +25,7 @@ Sendo Orientado a Componentes: "tudo é um componente". Possuindo o seu Componen
 Veja um pequeno exemplo,no Diagrama abaixo todo a VIEW (Visualização, tela, ou seja o que o usuario vai ver) 
 está construido em componentes como se fossem bloquinhos Lego, onde você os vai juntando até ter aquilo que se quer totalmente montada.
 
-![Diagrama Componentes](../resources/components.png)
+![Diagrama Componentes](components.png)
 
 Assim, com sua aplicão fragmentada pelos componetes gera uma melhor manutenção deles e também em teste se torna mais víavel.
 
@@ -48,13 +36,13 @@ os Serviços para que haja integração entre os Componentes e o Backend(Servido
 
 E o Service tem a injeção de dependencias em outras classes.
 
-![Diagrama Services](../resources/services.png)
+![Diagrama Services](services.png)
 
 
 #### Router
 O Router é o respavel pelo roteamento da aplicação, ou seja, com ele é que será feito a navegação. E com o Angular 2, o conceito de SPA é mantido.
 
-![Diagrama Router](../resources/router.png)
+![Diagrama Router](router.png)
 
 #### Diretivas
 Responsavel por modificar elementos do DOM (Document Obect Model) e/ou seu comportamento. Sendo que, os Components podem também ser diretivas.

@@ -1,0 +1,56 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2025-03-16T18:38:42.081564773"><title>Compartilhamento de Dados | Learn Angular</title><script type="application/json" id="virtual-toc-data">[{"id":"uso","level":0,"title":"Uso","anchor":"#uso"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.css" rel="stylesheet"><link rel="icon" type="image/svg" sizes="16x16" href="images/logo-primary.svg"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Compartilhamento de Dados | Learn Angular"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Learn Angular Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/04-compartilhamento-dados.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Compartilhamento de Dados | Learn Angular"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/04-compartilhamento-dados.html#webpage",
+    "url": "writerside-documentation/04-compartilhamento-dados.html",
+    "name": "Compartilhamento de Dados | Learn Angular",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Learn Angular Help"
+}</script><!-- End Schema.org --></head><body data-id="04_compartilhamento_dados" data-main-title="Compartilhamento de Dados" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="modulo-1"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Learn Angular  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="04_compartilhamento_dados" id="04_compartilhamento_dados.md">Compartilhamento de Dados</h1><p id="-pf0gj0_3">No Angular podemos fazer com que o <span class="control" id="-pf0gj0_7">componente pai</span> compartilhe dados com o <span class="control" id="-pf0gj0_8">componente filho</span></p><p id="-pf0gj0_4">Para tal vamos disponibilizar na chamada do componente o nome do dado que ser&aacute; recebido, na seguinte sintaxe: <code class="code" id="-pf0gj0_9">[dado]</code></p><p id="-pf0gj0_5">E no c&oacute;digo <code class="code" id="-pf0gj0_10">.ts</code> do componente filho usamos o decorator <code class="code" id="-pf0gj0_11">@input</code> que serve para entregar o dado para o <span class="control" id="-pf0gj0_12">template</span></p><section class="chapter"><h2 id="uso" data-toc="uso">Uso</h2><ul class="list _bullet" id="-pf0gj0_13"><li class="list__item" id="-pf0gj0_20"><p><span class="control" id="-pf0gj0_21">Devemos criar o atributo na classe pai:</span></p></li></ul><div class="code-block" data-lang="ts">
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import {FirstComponentComponent} from &quot;./components/first-component/first-component.component&quot;;
+import {ParentDataComponent} from &quot;./components/parent-data/parent-data.component&quot;;
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  userName : string = &quot;Punk da Silva&quot;;
+  title = 'moments';
+}
+</div><ul class="list _bullet" id="-pf0gj0_15"><li class="list__item" id="-pf0gj0_22"><p><span class="control" id="-pf0gj0_24">Definindo o dado que ser&aacute; passado no componente pai:</span></p><ul class="list _bullet" id="-pf0gj0_25"><li class="list__item" id="-pf0gj0_26"><p>devemos seguir o seguinte para isso: <code class="code" id="-pf0gj0_28">[nomeDoDado]=&quot;nomeDoDadoQueEstaNoPai&quot;</code></p></li><li class="list__item" id="-pf0gj0_27"><p>N&atilde;o necessita de os dois nomes serem iguais, mas &eacute; uma boa pr&aacute;tica</p></li></ul></li><li class="list__item" id="-pf0gj0_23"></li></ul><div class="code-block" data-lang="none">
+&lt;h1&gt;Hello World&lt;/h1&gt;
+
+&lt;app-first-component&gt;&lt;/app-first-component&gt;
+&lt;app-parent-data [name]=&quot;userName&quot;&gt;&lt;/app-parent-data&gt;
+</div><ul class="list _bullet" id="-pf0gj0_17"><li class="list__item" id="-pf0gj0_29"><p><span class="control" id="-pf0gj0_30">Passar o dado para o componente filho com o <code class="code" id="-pf0gj0_31">@Input</code>:</span></p></li></ul><div class="code-block" data-lang="ts">
+import { Component, Input, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-parent-data',
+  standalone: true,
+  imports: [],
+  templateUrl: './parent-data.component.html',
+  styleUrl: './parent-data.component.css'
+})
+export class ParentDataComponent implements OnInit {
+
+  @Input() name : string = &quot;&quot;;
+
+  constructor() {}
+
+  ngOnInit() {}
+}
+</div><aside class="prompt" data-type="tip" data-title="" id="-pf0gj0_19"><p id="-pf0gj0_32">⚠ Para o Angular &eacute; necessario inicializarmos o dado com algum valor, para que ele preencha. Ou podemos tamb&eacute;m dizer para o TypeScript que o dado vindo do <code class="code" id="-pf0gj0_33">@Input</code> vai ser inicializado, mas n&atilde;o agora, usando a exclama&ccedil;&atilde;o na frente do nome do dado: <code class="code" id="-pf0gj0_34">@Input() name! : string;</code></p></aside></section><div class="last-modified">Last modified: 16 março 2025</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="03-css-no-angular.html" class="navigation-links__prev">CSS no Angular</a><a href="05-diretivas.html" class="navigation-links__next">Diretivas</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.js"></script></body></html>

@@ -1,13 +1,5 @@
 # Interpolação de Dados
 
-<!-- TOC -->
-* [Interpolação de Dados](#interpolação-de-dados)
-  * [O que seria](#o-que-seria)
-  * [Como fazer](#como-fazer)
-    * [No `.ts`:](#no-ts)
-    * [No HTML:](#no-html)
-<!-- TOC -->
-
 ## O que seria
 A interpolação de dados é usada para exibir os dados para o usuário, ou seja, exibir um dado que esteja na parte da lógica (TS) para a parte de visualização do usuário (HTML)
 
@@ -68,6 +60,7 @@ export class FirstComponentComponent implements OnInit {
 ```
 
 ### No HTML:
+
 ```angular2html
 <h1>
   Nome: {{ name }}

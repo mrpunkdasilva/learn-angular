@@ -1,9 +1,4 @@
 # Diretivas
-<!-- TOC -->
-* [Diretivas](#diretivas)
-  * [O que seria](#o-que-seria)
-  * [Para usar](#para-usar)
-<!-- TOC -->
 
 ---
 

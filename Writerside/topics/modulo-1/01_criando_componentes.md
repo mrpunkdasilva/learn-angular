@@ -1,10 +1,5 @@
 # Criando componentes no Angular
-<!-- TOC -->
-* [Criando componentes no Angular](#criando-componentes-no-angular)
-  * [Criando](#criando)
-  * [Perai](#perai)
-  * [Uso](#uso)
-<!-- TOC -->
+
 
 Criamos os componentes usando a CLI, os components são os blocos de construção da aplicação. 
 Podemos dizer que são as partes de um tudo, assim podemos ter uma manutenção e controle melhor da aplicação.

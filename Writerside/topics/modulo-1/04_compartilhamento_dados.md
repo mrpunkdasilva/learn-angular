@@ -1,10 +1,5 @@
 # Compartilhamento de Dados
 
-<!-- TOC -->
-* [Compartilhamento de Dados](#compartilhamento-de-dados)
-  * [Uso](#uso)
-<!-- TOC -->
-
 No Angular podemos fazer com que o **componente pai** compartilhe dados com o **componente filho**
 
 Para tal vamos disponibilizar na chamada do componente o nome do dado que será recebido, na seguinte sintaxe: `[dado]`
@@ -35,6 +30,7 @@ export class AppComponent {
 - **Definindo o dado que será passado no componente pai:**
   - devemos seguir o seguinte para isso: `[nomeDoDado]="nomeDoDadoQueEstaNoPai"`
   - Não necessita de os dois nomes serem iguais, mas é uma boa prática
+- 
 ```angular2html
 <h1>Hello World</h1>
 

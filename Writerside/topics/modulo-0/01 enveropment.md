@@ -1,6 +1,4 @@
-# Learn Angular
-
-## Ambiente de Desenvolvimento
+# Ambiente de Desenvolvimento
 Será feita a configuração do ambiente para o Angular 2 ou versões posteriores, TypeScript, NodeJS.
 
 - Primiro deve-se ter o NodeJS instalado e instale a versão LTS
